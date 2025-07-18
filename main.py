@@ -14,7 +14,7 @@ def main():
     
     print("============ BOOKBOT ============")
     
-    print("Analyzing book found at books/frankenstein.txt...")
+    print("Analyzing book found at", str(sys.argv[1]) + "...")
 
     print("----------- Word Count ----------")
 
